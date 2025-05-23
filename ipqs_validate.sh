@@ -42,7 +42,7 @@ CALLER_NAME="N/A" # Initialize caller name
 # --- Whitelist Check (from your original script) ---
 # Add numbers here that should always be considered "OK"
 # Provide a comma-separated list of whitelisted numbers
-WHITELIST_NUMBERS="5555551212,5555551213"
+WHITELIST_NUMBERS="5551234567,8005551212"
 
 # Iterate through the comma-separated whitelist numbers
 IFS=',' read -ra ADDR <<< "$WHITELIST_NUMBERS"
